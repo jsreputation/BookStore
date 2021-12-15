@@ -11,3 +11,24 @@ Bronze level: Create a service for the bookstore.
 3. Create two unit tests.
 4. Create a public repo on github and upload your solution.
 5. Create a README file, copy and paste this text (challenge description).
+
+
+## Available Scripts
+
+In the project directory, you can run the server:
+
+### `py manage.py runserver`
+
+And it will run on 127.0.0.1:8000
+
+You will get to see two urls for test:
+#### `http://127.0.0.1:8000/books/`
+#### `http://127.0.0.1:8000/authors/`
+
+In the project directory, you can test by running:
+
+### `py manage.py test`
+
+You can find the test code in bookapp/tests.py
+
+
